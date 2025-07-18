@@ -36,10 +36,10 @@ df.columns
 df.isnull().sum()
 
 # Dropping the null/missing data and stored in variable called 'df'
-df = df.dropna()
+df_cleaned_data = df.dropna()
 
 # Verifying the data that null/missing values are dropped or not
-df.isnull().sum()
+df_cleaned_data.isnull().sum()
 
 # =============================================================================
 # The merchant wants to have a look at the following:
